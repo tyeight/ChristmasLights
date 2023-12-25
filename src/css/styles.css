@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    position: relative;
+    align-items: center; /* Alinha a base da árvore com as bolas inferiores */
+    height: 90vh; /* Altura total da viewport */
+  }
+  
+  #arvore {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+
+  
